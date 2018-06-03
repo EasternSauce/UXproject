@@ -1,0 +1,291 @@
+body
+{
+	margin: 0 !important;
+	background-color: #F5F5F5;
+	color: #d9d9d9;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.header {
+	width: 100%;
+	padding: 40px 0;
+}
+
+.logo {
+	width: 450px;
+	font-size: 48px;
+	/* border: 1px solid #000; */
+	margin-left: 225px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	font-weight: 700;
+	color: #2F4F4F;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.menu_wrapper{
+	width: 100%;
+	background-color: #404E5C;
+}
+
+.menu {
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 20px 0px 10px;
+
+}
+
+.input_panel {
+	margin-bottom:40px;
+}
+
+.place_input
+{
+	float:left;
+}
+
+.date_input
+{
+	float:left;
+	margin-left:60px;
+}
+
+.submit_container{
+	float:left;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	
+}
+
+label
+{
+	display:block;
+}
+
+input[type=text] , input[type=date], select{
+	width: 185px;
+    display:block;
+	background-color: #efefef;
+	color: #404E5C;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 120px;
+	background-color: #c91d5f;
+	font-size: 20px;
+	color: white;
+	padding: 13px 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+
+.search_panel{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 15px;
+	text-align:center;
+}
+
+.search_button{
+	width: 280px;
+	margin-left:20px;
+	background-color: #B7C3F3;
+	border: none;
+	padding: 15px 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #404E5C;
+}
+
+.container
+{
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.places {
+	margin-bottom: 60px;
+}
+
+.place {
+	display: inline-block;
+	width: 450px;
+	text-align:center;
+	margin-bottom:5px;
+	padding: 5px;
+	border: 1px solid #751b1b;
+	background-color: #404E5C;
+}
+
+.place p
+{
+	padding: 5px;
+	margin-top: 10px;
+	color: white;
+}
+
+h1
+{
+	font-size: 32px;
+	font-weight: 400px;
+	color: #CF1259;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+.photo1
+{
+	transition: all 0.2s ease-in-out;
+}
+
+.photo1:hover
+{
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.photo2
+{
+	width: 300px;
+}
+
+.photo3
+{
+	width: 300px;
+}
+
+.photo4
+{
+	width: 300px;
+}
+
+.photo5
+{
+	width: 300px;
+}
+
+.photo6
+{
+	height: 278px;
+	overflow: hidden;
+}
+
+
+
+.photo6 img
+{
+	transition: all 0.7s ease-in-out;
+}
+
+.photo6:hover img
+{
+	-webkit-transform: scale(1.2) rotate(-5deg);
+	-ms-transform: scale(1.2) rotate(-5deg);
+	transform: scale(1.2) rotate(-5deg);
+}
+
+.footer
+{
+	text-align: center;
+	background-color: #222222;
+	padding: 30px;
+}
+
+
+
+.small_photo{
+	float:left;
+	height: 60px;
+	width: 80px;
+	border: 2px solid #a3a3c2;
+}
+
+.place_button{
+	float:left;
+	width: 430px;
+	height: 60px;
+	margin-left:30px;
+	background-color: #c2c2d6;
+	border: none;
+	padding: 15px 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #333333;
+}
+
+.flights{
+	float:left;
+	width: 100px;
+	height: 60px;
+	background-color: #c91d5f;
+	border: none;
+	padding: 15px 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #F5F5F5;
+}
+
+.places_prices{
+	padding: 30px;
+	margin-left:auto;
+	width: 100%;
+	height: 470px;
+	text-align: center;
+	size: auto;
+}
+
+.price{
+	color: #c91d5f;
+	text-align: center;
+	width:80px;
+}
+
+fieldset {
+	background: #94999e;
+	border: 0 none;
+	border-radius: 3px;
+	padding: 20px 35px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	width: 65%;
+	margin: 0 14%;
+	position: absolute;
+}
+
+tr {
+	height: 70px;
+}
+
+.alt_button{
+	margin-left:20px;
+	margin-top:23px;
+	background-color: #c2c2d6;
+	border: none;
+	padding: 15px 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #333333;
+}
+
+
+
+
+
+
