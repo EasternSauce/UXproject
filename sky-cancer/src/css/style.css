@@ -29,7 +29,7 @@ body
 	letter-spacing: 5px;
 }
 
-.menu_wrapper{
+.SearchMenu{
 	width: 100%;
 	background-color: #404E5C;
 }
@@ -62,7 +62,7 @@ body
 	text-align: center;
 	margin-left: 30px;
 	margin-top: 20px;
-	
+
 }
 
 label
@@ -283,9 +283,3 @@ tr {
 	font-size: 15px;
 	color: #333333;
 }
-
-
-
-
-
-
