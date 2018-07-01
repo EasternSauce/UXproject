@@ -1,11 +1,14 @@
 {
-  "name": "sky-cancer",
-  "version": "0.1.0",
-  "private": true,
+  "name": "a-simple-react-router-v4-tutorial",
+  "description": "https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf",
+  "version": "0.0.53",
   "dependencies": {
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-router-dom": "4.1.1",
+    "react-dom": "15.5.3",
+    "react": "15.5.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
