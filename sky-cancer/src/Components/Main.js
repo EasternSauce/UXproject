@@ -4,12 +4,14 @@ import Home from './Home'
 import PlacePrices from './PlacePrices'
 
 const Main = () => (
-  <main>
-    <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/place_prices' component={PlacePrices}/>
-    </Switch>
-  </main>
+    <main>
+        <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route path='/alternative' component={Home}/>
+            <Route path='/advanced' component={Home}/>
+            <Route path='/place_prices' component={PlacePrices}/>
+        </Switch>
+    </main>
 )
 
 export default Main
