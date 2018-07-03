@@ -44,6 +44,7 @@ body
 
 .input_panel {
 	margin-bottom:40px;
+	text-align: left;
 }
 
 .place_input
@@ -71,7 +72,7 @@ label
 
 input[type=text] , input[type=date], select{
 	width: 185px;
-    display:block;
+	display:block;
 	background-color: #efefef;
 	color: #404E5C;
 	border: 2px solid #ddd;
@@ -281,4 +282,46 @@ tr {
 	border-radius: 5px;
 	font-size: 15px;
 	color: #333333;
+}
+
+.left{
+	float:left;
+}
+
+.clear{
+	clear:both;
+}
+
+.classBtn{
+	float:left;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+.optionsBtn{
+	float:left;
+	margin-right:20px;
+}
+
+.marginB{
+	margin-bottom:20px;
+}
+
+.marginL{
+	margin-left:20px;
+}
+
+.margin{
+	margin-bottom:20px;
+	margin-left:20px;
+}
+
+input[type="radio"] {
+	opacity:0.01;
+	z-index:100;
+}
+
+input[type="radio"]:checked + label,
+.Checked + label {
+	background:yellow;
 }
