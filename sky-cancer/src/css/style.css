@@ -111,6 +111,17 @@ input[type=submit] {
 	color: #404E5C;
 }
 
+.search_button_clicked{
+	width: 280px;
+	margin-left:20px;
+	background-color: #7c92e9;
+	border:12px #CF1259;
+	padding: 15px 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #404E5C;
+}
+
 .container
 {
 	width: 1000px;
@@ -234,7 +245,7 @@ h1
 	float:left;
 	width: 100px;
 	height: 60px;
-	background-color: #c91d5f;
+	background-color: #ef4385;
 	border: none;
 	padding: 15px 10px;
 	border-radius: 5px;
@@ -284,6 +295,17 @@ tr {
 	color: #333333;
 }
 
+.alt_button_clicked{
+	margin-left:20px;
+	margin-top:23px;
+	background-color: #f372a4;
+	border: none;
+	padding: 15px 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #333333;
+}
+
 .left{
 	float:left;
 }
@@ -314,14 +336,4 @@ tr {
 .margin{
 	margin-bottom:20px;
 	margin-left:20px;
-}
-
-input[type="radio"] {
-	opacity:0.01;
-	z-index:100;
-}
-
-input[type="radio"]:checked + label,
-.Checked + label {
-	background:yellow;
 }

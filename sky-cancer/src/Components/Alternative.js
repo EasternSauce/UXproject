@@ -1,30 +1,61 @@
 import React from 'react'
 
-import Links from "./Links";
+import LinksAlt from "./LinksAlt";
+
+
+var Button = React.createClass({
+
+    getInitialState: function() {
+        return {
+            cssClass: 'alt_button'
+        }
+
+    },
+
+    handleClick: function() {
+        if (this.state.cssClass === 'alt_button_clicked'){
+            this.setState({
+                cssClass: 'alt_button'
+            })
+        } else {
+            this.setState({
+                cssClass: 'alt_button_clicked'
+            })
+        }
+
+    },
+
+    render : function() {
+        return (
+                <button
+                    onClick={this.handleClick}
+                    className={this.state.cssClass}>{this.props.text}</button>
+        )
+    }
+});
 
 const Alternative = () => (
 
     <div>
-        <Links />
+        <LinksAlt />
         <div className="search_panel">
-            <button className="alt_button" type="button">Szlakiem poetów</button>
-            <button className="alt_button" type="button">Spacery</button>
-            <button className="alt_button" type="button">Sport</button>
-            <button className="alt_button" type="button">Ciepło</button>
+            <Button text="Szlakiem poetów"/>
+            <Button text="Sport"/>
+            <Button text="Ciepło"/>
             <br/>
-            <button className="alt_button" type="button">Koncerty</button>
-            <button className="alt_button" type="button">Muzea</button>
-            <button className="alt_button" type="button">Wydarzenia sportowe</button>
-            <button className="alt_button" type="button">Krajobrazy</button>
+            <Button text="Koncerty"/>
+            <Button text="Muzea"/>
+            <Button text="Wydarzenia sportowe"/>
+            <Button text="Krajobrazy"/>
             <br/>
-            <button className="alt_button" type="button">Filmy</button>
-            <button className="alt_button" type="button">Dobre jedzenie</button>
-            <button className="alt_button" type="button">Wino</button>
-            <button className="alt_button" type="button">Zorza polarna</button>
+            <Button text="Filmy"/>
+            <Button text="Dobre jedzenie"/>
+            <Button text="Wino"/>
+            <Button text="Zorza polarna"/>
             <br/>
-            <button className="alt_button" type="button">Tajemnicze miejsca</button>
-            <button className="alt_button" type="button">Góry</button>
-            <button className="alt_button" type="button">Morze i plaża</button>
+            <Button text="Tajemnicze miejsca"/>
+            <Button text="Góry"/>
+            <Button text="Morze i plaża"/>
         </div>
     </div>
 )
